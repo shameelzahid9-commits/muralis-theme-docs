@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muralis theme — Documentation</title>
+<meta name="description" content="Setup and customization guide for the Muralis Shopify theme — every section, setting, and template.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="inner">
+  <a href="index.html"><img src="muralis-logo.png" alt="Muralis"></a>
+  <nav class="site-nav"><a href="documentation.html">Documentation</a> <a href="support.html">Support</a></nav>
+</div></header>
+<main class="doc">
+<h1>Muralis — Theme documentation</h1>
+<p>Muralis is a premium Shopify theme built for custom print, canvas, photo-tile, and
+wall-art stores. It pairs a bold, gallery-style storefront with a guided
+&quot;create your own&quot; shopping flow, multi-level navigation, and a complete set of
+Online Store 2.0 sections and blocks.</p>
+<p>This guide explains how to set up and customize every part of the theme from the
+<strong>Shopify theme editor</strong> (Online Store → Themes → Customize). No code is required.
+Setting and section names below match exactly what you see in the editor.</p>
+<ul>
+<li><strong>Theme version:</strong> 1.6.0</li>
+<li><strong>Support:</strong> see <a href="#support-and-contact">Support and contact</a> at the end of this guide.</li>
+<li><strong>Compatibility:</strong> Online Store 2.0, all modern desktop and mobile browsers.</li>
+</ul>
+<hr>
+<h2>Table of contents</h2>
+<ol>
+<li><a href="#1-getting-started">Getting started</a></li>
+<li><a href="#2-theme-settings">Theme settings</a></li>
+<li><a href="#3-header">Header</a></li>
+<li><a href="#4-footer">Footer</a></li>
+<li><a href="#5-home-page">Home page</a></li>
+<li><a href="#6-product-pages">Product pages</a></li>
+<li><a href="#7-collection-and-collection-list-pages">Collection and collection list pages</a></li>
+<li><a href="#8-search">Search</a></li>
+<li><a href="#9-cart">Cart</a></li>
+<li><a href="#10-customer-accounts-and-orders">Customer accounts and orders</a></li>
+<li><a href="#11-blog-and-articles">Blog and articles</a></li>
+<li><a href="#12-gift-cards">Gift cards</a></li>
+<li><a href="#13-pages-and-the-contact-form">Pages and the contact form</a></li>
+<li><a href="#14-navigation-setup">Navigation setup</a></li>
+<li><a href="#15-selling-in-multiple-countries-and-languages">Selling in multiple countries and languages</a></li>
+<li><a href="#16-subscriptions-selling-plans">Subscriptions (selling plans)</a></li>
+<li><a href="#17-specialized-product-and-collection-templates">Specialized product and collection templates</a></li>
+<li><a href="#18-performance-and-accessibility">Performance and accessibility</a></li>
+<li><a href="#19-faq">FAQ</a></li>
+<li><a href="#20-support-and-contact">Support and contact</a></li>
+</ol>
+<hr>
+<h2>1. Getting started</h2>
+<ol>
+<li><strong>Add the theme.</strong> From your Shopify admin, the theme appears under
+<strong>Online Store → Themes</strong>.</li>
+<li><strong>Preview before publishing.</strong> Use <strong>Actions → Preview</strong> to explore the theme
+without affecting your live store. Use <strong>Customize</strong> to open the theme editor.</li>
+<li><strong>Duplicate before major edits.</strong> Before changing settings or code, use
+<strong>Actions → Duplicate</strong> so you always have a working backup.</li>
+<li><strong>Publish when ready.</strong> Use <strong>Actions → Publish</strong> to make Muralis your live theme.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Demo images shown in the theme preview do not transfer when you install
+the theme. Add your own product photos, collection images, and section images.</p>
+</blockquote>
+<hr>
+<h2>2. Theme settings</h2>
+<p>Open <strong>Customize → Theme settings</strong> (the gear icon at the bottom of the editor).
+Settings are grouped as follows.</p>
+<h3>Colors</h3>
+<p>Muralis uses a small, coordinated palette. Each background has a matching text color
+so contrast stays readable.</p>
+<ul>
+<li><strong>Primary / accent</strong> — buttons, links, highlights, and the sale badge.</li>
+<li><strong>Headings</strong> — color for headings across the theme.</li>
+<li><strong>Body text</strong> — default paragraph and body color.</li>
+<li><strong>Borders and dividers</strong> — card borders, separators, and outlines.</li>
+<li><strong>Soft section background</strong> — the tinted background used by softer sections.</li>
+<li><strong>Soft section text</strong> — text color used on the soft background.</li>
+</ul>
+<h3>Typography</h3>
+<ul>
+<li><strong>Heading font</strong> — font for headings (uses the Shopify font library).</li>
+<li><strong>Body font</strong> — font for body text.</li>
+</ul>
+<p>Bold, italic, and bold-italic variants load automatically for both fonts.</p>
+<h3>Layout</h3>
+<ul>
+<li><strong>Maximum page width</strong> — the maximum content width, in pixels.</li>
+</ul>
+<h3>Favicon</h3>
+<ul>
+<li><strong>Favicon image</strong> — the small icon shown in browser tabs. A square image of at
+least 32 x 32px is recommended.</li>
+</ul>
+<hr>
+<h2>3. Header</h2>
+<p>Open the <strong>Header</strong> section in the editor.</p>
+<ul>
+<li><strong>Logo</strong> — upload your store logo. Works with landscape or portrait images. If no
+logo is uploaded, your store name is used.</li>
+<li><strong>Main menu</strong> — choose the menu shown in the top navigation. On a fresh install
+this defaults to your store&#39;s <strong>Main menu</strong>. The header supports up to three
+levels (see <a href="#14-navigation-setup">Navigation setup</a>):<ul>
+<li>One level → a plain link.</li>
+<li>Two levels → a dropdown.</li>
+<li>Three levels → a mega menu (second level becomes column headings, third level
+becomes the links).</li>
+</ul>
+</li>
+<li><strong>Show account icon</strong> — show or hide the customer account icon.</li>
+</ul>
+<p>The header also includes <strong>predictive search</strong> (suggestions appear as the customer
+types) and a cart link with a live item count.</p>
+<hr>
+<h2>4. Footer</h2>
+<p>Open the <strong>Footer</strong> section.</p>
+<ul>
+<li><strong>Brand name</strong> and <strong>Brand text</strong> — your store name and a short description.</li>
+<li><strong>Social media icons</strong> — paste the full URLs for Instagram, Facebook, Pinterest,
+and TikTok. Leave a field empty to hide that icon.</li>
+<li><strong>Follow on Shop</strong> — a &quot;Follow on Shop&quot; button appears automatically when the Shop
+sales channel is available, so customers can follow your store in the Shop app.</li>
+<li><strong>Support menu</strong> and <strong>All pages menu</strong> — choose menus for the footer columns.
+These default to your store&#39;s <strong>Footer</strong> menu on install.</li>
+<li><strong>Headings</strong> — set the heading text for each footer column.</li>
+<li><strong>Show payment icons</strong> — show the payment method icons supported by your store.</li>
+</ul>
+<p>A <strong>newsletter signup</strong> form and the <strong>country/region</strong> and <strong>language</strong> selectors
+also appear in the footer (the selectors appear only when your store sells in more
+than one country or language).</p>
+<hr>
+<h2>5. Home page</h2>
+<p>Open <strong>Customize</strong> with the <strong>Home page</strong> template selected. Add, remove, and
+reorder sections from the left panel. Available home-page sections include:</p>
+<ul>
+<li><strong>Announcement bar</strong> — a slim message bar above the header.</li>
+<li><strong>Hero</strong> — a full-width banner with heading, text, button, and separate desktop
+and mobile images.</li>
+<li><strong>Benefits row</strong> — short value props (for example, free shipping or easy returns).</li>
+<li><strong>How it works</strong> — a step-by-step illustration of your ordering process.</li>
+<li><strong>Best-selling collections</strong> — highlight collections with images and links.</li>
+<li><strong>Collections hub</strong>, <strong>Rooms hub</strong>, <strong>Styles hub</strong> — curated card grids that guide
+customers to collections by category, room, or style.</li>
+<li><strong>Product create cards</strong> — promotional cards that lead into your &quot;create your own&quot;
+product flow.</li>
+<li><strong>Testimonials</strong> — customer reviews with optional photos.</li>
+<li><strong>Final CTA</strong> — a closing call-to-action band.</li>
+<li><strong>Custom liquid</strong> — insert custom Liquid or app snippets anywhere.</li>
+</ul>
+<p>Every section has its own heading, text, image, and link settings. Add real images
+and copy so the layout looks balanced.</p>
+<hr>
+<h2>6. Product pages</h2>
+<p>The product page is built from <strong>blocks</strong> in the <strong>Main product</strong> section, so you can
+reorder or hide elements without code. Available blocks:</p>
+<ul>
+<li><strong>Price</strong> — current price, compare-at price, sale badge, unit price, Shop Pay
+Installments banner, and the tax-included note (when your prices include tax).</li>
+<li><strong>Vendor</strong> — the product vendor/brand.</li>
+<li><strong>Description</strong> — the product description.</li>
+<li><strong>Custom Liquid</strong> — an insertion point for custom Liquid or app snippets.</li>
+<li><strong>Trust card</strong> — a small reassurance card (quality, packaging, support). Add several.</li>
+<li><strong>FAQ item</strong> — a question/answer that appears in the product FAQ band. Add several.</li>
+<li><strong>App blocks</strong> — any app that provides a product block (for example, reviews) can
+be added here.</li>
+</ul>
+<p>The product form (variant selectors, quantity, and the <strong>Add to cart</strong> button) is
+always present. Section settings let you control:</p>
+<ul>
+<li><strong>Show quantity selector</strong>, <strong>Show dynamic checkout button</strong> (accelerated checkout,
+on by default), <strong>Show recipient information form for gift card products</strong>.</li>
+<li>Labels: <strong>Variant selector label</strong>, <strong>Quantity label</strong>, <strong>Add to cart label</strong>,
+<strong>Sold out label</strong>, <strong>FAQ eyebrow</strong>, <strong>FAQ heading</strong>, plus fallback text used when
+no product is assigned.</li>
+</ul>
+<p>Product page features built in:</p>
+<ul>
+<li><strong>Variant options</strong> as separate selectors, with <strong>color and image swatches</strong>.</li>
+<li><strong>Variant images</strong> — the gallery updates to the selected variant&#39;s media.</li>
+<li><strong>Rich media</strong> — images, 3D models, and videos (Shopify-hosted and YouTube/Vimeo),
+switchable from the thumbnails.</li>
+<li><strong>Product recommendations</strong> — add the <strong>Product recommendations</strong> section and set
+its intent to <strong>Related</strong> or <strong>Complementary</strong> (&quot;Complete the look&quot;).</li>
+<li><strong>Pickup availability</strong>, <strong>Shop Pay Installments</strong>, and <strong>subscriptions</strong> (see
+<a href="#16-subscriptions-selling-plans">Subscriptions</a>).</li>
+<li><strong>Gift card recipient form</strong> — for gift card products, buyers can send the card to
+someone else with an optional delivery date.</li>
+</ul>
+<blockquote>
+<p><strong>Add 3D or video:</strong> upload the media to the product in <strong>Products → [product] →
+Media</strong> (Shopify hosts 3D and video). Muralis displays it automatically.</p>
+</blockquote>
+<hr>
+<h2>7. Collection and collection list pages</h2>
+<p><strong>Collection page</strong> (the <strong>Main collection</strong> section):</p>
+<ul>
+<li>Shows the collection title, description, and image.</li>
+<li>Products appear in a responsive grid (varying image ratios won&#39;t break the layout)
+with title, price (including price ranges for products that vary), unit price, and a
+<strong>Sale</strong> badge when applicable.</li>
+<li><strong>Show sort</strong> — let customers sort the products.</li>
+<li><strong>Show filters</strong> — show faceted filters. Filters come from the free
+<strong>Shopify Search &amp; Discovery</strong> app (install it and configure filters such as price,
+type, vendor, and variant options).</li>
+<li>Shows a friendly message when a collection is empty, and supports pagination.</li>
+<li><strong>SEO text</strong> — add an optional rich-text block at the bottom for SEO copy.</li>
+</ul>
+<p><strong>Collection list page</strong> (the <strong>Main list collections</strong> section) shows each
+collection&#39;s title and featured image, with pagination.</p>
+<hr>
+<h2>8. Search</h2>
+<p>Muralis includes a dedicated search page (the <strong>Main search</strong> section) plus predictive
+search in the header.</p>
+<ul>
+<li>Results are grouped into <strong>Products</strong> and <strong>Articles and pages</strong>.</li>
+<li><strong>Show filters</strong> adds faceted filtering to product search results (also powered by
+Shopify Search &amp; Discovery).</li>
+<li>Add <strong>Quick link</strong> blocks to suggest popular categories.</li>
+<li>A clear &quot;no results&quot; message appears when nothing matches.</li>
+</ul>
+<hr>
+<h2>9. Cart</h2>
+<p>The cart page (the <strong>Main cart</strong> section) shows each line item&#39;s title, options,
+image, unit and line price, and quantity. It includes:</p>
+<ul>
+<li>Quantity controls that refresh totals automatically.</li>
+<li><strong>Cart notes</strong> for order instructions.</li>
+<li><strong>Automatic discounts</strong> and <strong>accelerated checkout</strong> buttons (on by default).</li>
+<li>Subscription (selling plan) details on subscription line items.</li>
+<li>A tax-included note when your prices include tax, and an empty-cart message.</li>
+</ul>
+<hr>
+<h2>10. Customer accounts and orders</h2>
+<p>Customer account pages (account, orders, addresses, login, register, reset and
+activate account) are fully styled. Order pages show each line item&#39;s unit price,
+unit-of-measure pricing where applicable, and the chosen subscription plan.</p>
+<hr>
+<h2>11. Blog and articles</h2>
+<ul>
+<li><strong>Blog page</strong> (the <strong>Main blog</strong> section) lists articles with title, image, and
+excerpt, with pagination.</li>
+<li><strong>Article page</strong> (the <strong>Main article</strong> section) shows the title, published date,
+content, and a paginated <strong>comments</strong> section (comments work without moderation,
+with success and error messages).</li>
+</ul>
+<hr>
+<h2>12. Gift cards</h2>
+<p>When you sell a gift card product, the gift card page shows the card balance and
+code, a <strong>QR code</strong> for in-person redemption, an <strong>Add to Apple Wallet</strong> button, and
+your store name or logo. On the product page, buyers can choose to send the gift card
+to a recipient with a personal message and delivery date.</p>
+<hr>
+<h2>13. Pages and the contact form</h2>
+<ul>
+<li><strong>Page</strong> (the <strong>Main page</strong> section) shows the page title and content.</li>
+<li><strong>Contact page</strong> — Muralis includes a contact-form page template (<strong>page.contact</strong>).
+Create a page and assign the <strong>Contact</strong> template to it to show a working contact
+form. Muralis also ships ready-made page templates for help, FAQ, shipping, returns,
+size guide, upload guide, photo-quality guide, track order, bulk orders, rooms,
+styles, collections hub, and about.</li>
+</ul>
+<hr>
+<h2>14. Navigation setup</h2>
+<p>Menus are managed in <strong>Online Store → Navigation</strong>, then selected in the theme editor.</p>
+<ol>
+<li>Create your menus (for example, <strong>Main menu</strong> and <strong>Footer</strong>) in Navigation.</li>
+<li>For multi-level header menus, add nested items: a top item with child items shows
+a dropdown; child items that themselves have children show a mega menu.</li>
+<li>In the <strong>Header</strong> section, choose your menu under <strong>Main menu</strong>.</li>
+<li>In the <strong>Footer</strong> section, choose menus for <strong>Support menu</strong> and <strong>All pages menu</strong>.</li>
+</ol>
+<p>If you don&#39;t choose a menu, the theme falls back to a built-in default so navigation
+still works.</p>
+<hr>
+<h2>15. Selling in multiple countries and languages</h2>
+<p>When you sell in more than one country/currency or language (configure these in
+<strong>Settings → Markets</strong>), Muralis automatically shows <strong>country/region</strong> and
+<strong>language</strong> selectors in the footer. Prices and content update to the customer&#39;s
+selection. No theme setup is required.</p>
+<hr>
+<h2>16. Subscriptions (selling plans)</h2>
+<p>If you offer subscriptions (via a subscriptions app that uses Shopify selling plans),
+a <strong>purchase options</strong> selector appears automatically on the product page so
+customers can choose a one-time purchase or a subscription. The chosen plan is shown
+in the cart and on the customer&#39;s order page. You can rename the selector labels in
+the <strong>Main product</strong> section settings.</p>
+<hr>
+<h2>17. Specialized product and collection templates</h2>
+<p>Muralis includes purpose-built templates for print stores. Assign them to a product or
+collection from the admin (<strong>[product/collection] → Theme template</strong>):</p>
+<ul>
+<li><strong>Product templates:</strong> Default product, <strong>Custom canvas</strong>, <strong>Photo tiles</strong>,
+<strong>Wall art</strong>.</li>
+<li><strong>Collection templates:</strong> Default plus single canvas, framed canvas, canvas sets,
+canvas bundles, photo tiles, wall art, rooms, and styles variants.</li>
+<li><strong>Page templates:</strong> about, help, FAQ, contact, shipping, returns, size guide,
+upload guide, photo-quality guide, track order, bulk orders, rooms, styles,
+collections hub.</li>
+</ul>
+<hr>
+<h2>18. Performance and accessibility</h2>
+<ul>
+<li>Images use responsive loading so phones download appropriately sized files.</li>
+<li>Headings, navigation, forms, and interactive elements are keyboard accessible with
+visible focus states.</li>
+<li>Rich-text (headings, lists, quotes) is styled consistently across product,
+collection, and article content.</li>
+</ul>
+<p>For best performance, use appropriately sized images and avoid adding very large
+uncompressed media.</p>
+<hr>
+<h2>19. FAQ</h2>
+<p><strong>How do I change theme colors and fonts?</strong>
+Open <strong>Customize → Theme settings → Colors</strong> and <strong>Typography</strong>.</p>
+<p><strong>My navigation links go to &quot;Page not found.&quot; Why?</strong>
+The menu points to pages or collections that don&#39;t exist yet. Create the matching
+pages/collections in your admin, or edit the menu in <strong>Online Store → Navigation</strong>.</p>
+<p><strong>How do I add filters to collection and search pages?</strong>
+Install the free <strong>Shopify Search &amp; Discovery</strong> app and configure filters there, then
+make sure <strong>Show filters</strong> is enabled in the Main collection / Main search sections.</p>
+<p><strong>How do I add a 3D model or video to a product?</strong>
+Upload it to the product&#39;s media in the admin. Muralis displays 3D models and videos
+automatically in the gallery.</p>
+<p><strong>Can I reorder the elements on a product page?</strong>
+Yes. The product page is block-based — reorder or hide the Price, Vendor,
+Description, and other blocks in the <strong>Main product</strong> section.</p>
+<p><strong>How do I show subscription options?</strong>
+Install a subscriptions app that uses Shopify selling plans and assign a plan to the
+product. The purchase-options selector then appears automatically.</p>
+<p><strong>Will my changes show in the preview?</strong>
+Yes — changes made in the theme editor appear in the editor preview immediately.</p>
+<p><strong>Demo images didn&#39;t transfer when I installed the theme. Is that a bug?</strong>
+No. Shopify doesn&#39;t transfer demo images on install. Add your own media.</p>
+<hr>
+<h2>20. Support and contact</h2>
+<p>We&#39;re here to help with theme setup and any issues you find.</p>
+<ul>
+<li><strong>Contact:</strong> use our support contact form (linked from the theme listing page).</li>
+<li><strong>Response time:</strong> we reply to support requests within <strong>two business days</strong>.</li>
+<li><strong>What&#39;s covered:</strong> setup questions and bug fixes (for example, a broken layout,
+a dead link, or a logical error in the theme) at no extra cost.</li>
+<li><strong>What&#39;s not included in the theme price:</strong> custom code, custom design work, and
+app integrations. We&#39;re happy to discuss these as separate services.</li>
+</ul>
+<blockquote>
+<p><strong>Before editing theme code,</strong> always duplicate your theme first
+(<strong>Online Store → Themes → Actions → Duplicate</strong>). For larger customizations, we
+recommend hiring a <a href="https://www.shopify.com/partners/directory">Shopify Partner</a>.</p>
+</blockquote>
+</main>
+<footer class="site-footer"><div class="inner">
+  <span>Muralis theme · Documentation · v1.6.0</span>
+  <span><a href="index.html">Home</a> · <a href="support.html">Support</a></span>
+</div></footer>
+</body>
+</html>

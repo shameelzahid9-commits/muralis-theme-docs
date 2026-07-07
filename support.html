@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muralis theme — Support</title>
+<meta name="description" content="Get help with the Muralis Shopify theme. Send a support request and we'll reply within two business days.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="inner">
+  <a href="index.html"><img src="muralis-logo.png" alt="Muralis"></a>
+  <nav class="site-nav"><a href="documentation.html">Documentation</a> <a href="support.html">Support</a></nav>
+</div></header>
+<main>
+<h1>Muralis theme support</h1>
+<p>Have a question or found an issue with the Muralis theme? Send us the details below and we'll reply within <strong>two business days</strong>.</p>
+
+<!-- SETUP: replace YOUR_FORM_ID with your Formspree endpoint (formspree.io, free tier),
+     then turn on the autoresponder so submitters get a confirmation email. -->
+<form class="support" action="https://formspree.io/f/YOUR_FORM_ID" method="post" enctype="multipart/form-data">
+  <input type="hidden" name="_subject" value="Muralis theme support request">
+  <div class="field">
+    <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+    <input type="text" id="name" name="name" autocomplete="name" placeholder="First and last name" required>
+  </div>
+  <div class="field">
+    <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+    <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+  </div>
+  <div class="row">
+    <div class="field">
+      <label for="store">Store URL <span class="req" aria-hidden="true">*</span></label>
+      <input type="url" id="store" name="store_url" placeholder="https://your-store.myshopify.com" required>
+      <span class="hint">Example: https://your-store.myshopify.com</span>
+    </div>
+    <div class="field">
+      <label for="theme">Theme</label>
+      <select id="theme" name="theme_name"><option value="Muralis" selected>Muralis</option></select>
+    </div>
+  </div>
+  <div class="field">
+    <label for="problem">Description of the problem <span class="req" aria-hidden="true">*</span></label>
+    <textarea id="problem" name="message" placeholder="Tell us what's happening, what you expected, and the steps to reproduce it." required></textarea>
+    <span class="hint">The more detail you share, the faster we can help.</span>
+  </div>
+  <div class="field">
+    <label for="screenshot">Attach a screenshot (optional)</label>
+    <input type="file" id="screenshot" name="attachment" accept="image/png,image/jpeg,image/gif,image/webp">
+    <span class="hint">Images help us see the issue. .png or .jpg recommended.</span>
+  </div>
+  <button class="submit" type="submit">Send request</button>
+  <p class="note">After you submit, you'll receive an automatic email confirming we've received your request. We reply within two business days.</p>
+</form>
+</main>
+<footer class="site-footer"><div class="inner">
+  <span>Muralis theme · Support</span>
+  <span><a href="index.html">Home</a> · <a href="documentation.html">Documentation</a></span>
+</div></footer>
+</body>
+</html>
