@@ -17,10 +17,13 @@
 <h1>Muralis theme support</h1>
 <p>Have a question or found an issue with the Muralis theme? Send us the details below and we'll reply within <strong>two business days</strong>.</p>
 
-<!-- SETUP: replace YOUR_FORM_ID with your Formspree endpoint (formspree.io, free tier),
-     then turn on the autoresponder so submitters get a confirmation email. -->
-<form class="support" action="https://formspree.io/f/YOUR_FORM_ID" method="post" enctype="multipart/form-data">
+<!-- Backend: FormSubmit (no account). The FIRST submission sends a one-time activation
+     email to the address below — click it once to enable delivery. -->
+<form class="support" action="https://formsubmit.co/shameelzahid9@gmail.com" method="post" enctype="multipart/form-data">
   <input type="hidden" name="_subject" value="Muralis theme support request">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_autoresponse" value="Thanks for contacting Muralis theme support. We've received your message and will reply within two business days.">
+  <input type="hidden" name="_next" value="https://shameelzahid9-commits.github.io/muralis-theme-docs/">
   <div class="field">
     <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
     <input type="text" id="name" name="name" autocomplete="name" placeholder="First and last name" required>
