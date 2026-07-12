@@ -9,7 +9,7 @@ This guide explains how to set up and customize every part of the theme from the
 **Shopify theme editor** (Online Store → Themes → Customize). No code is required.
 Setting and section names below match exactly what you see in the editor.
 
-- **Theme version:** 1.6.0
+- **Theme version:** 1.6.2
 - **Support:** see [Support and contact](#support-and-contact) at the end of this guide.
 - **Compatibility:** Online Store 2.0, all modern desktop and mobile browsers.
 
